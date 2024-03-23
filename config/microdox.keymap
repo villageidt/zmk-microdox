@@ -66,7 +66,7 @@
         //│ left     │  down      │  right       │  9       │  0       │   │          │          │          │          │          │
             &kp LEFT   &kp DOWN    &kp RIGHT &trans &kp SLASH        &kp EQUAL  &kp N1    &kp N2    &kp N3 &kp SEMI
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &trans       &kp N0    &kp DOT
+                                          &trans     &trans     &trans       &kp N0    &kp DOT &trans 
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -83,7 +83,7 @@
         //│          │          │          │          │          │   │  &       │  _       │  +       │  │       │          │
             &trans  &trans &trans &trans &kp DQT       &kp C_VOL_DN    &kp C_PREV    &kp C_NEXT    &trans   &kp DEL
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &mo 1      &kp ESC        &trans     &trans
+                                           &trans    &mo 1      &kp ESC        &trans     &trans &trans 
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -100,7 +100,7 @@
         //│          │          │          │ CLEAR BT │PROFILE 2 │   │          │          │          │          │          │
             &trans     &trans     &trans    &bt BT_CLR &bt BT_SEL 2    &trans     &trans     &trans     &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &trans         &trans     &trans
+                                           &trans    &trans     &trans         &trans     &trans &trans 
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
