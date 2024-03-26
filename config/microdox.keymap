@@ -83,7 +83,7 @@
         //│          │          │          │          │          │   │  &       │  _       │  +       │  │       │          │
             &trans  &trans &trans &trans &kp DQT       &kp C_VOL_DN    &kp C_PREV    &kp C_NEXT    &trans   &kp DEL
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                           &trans    &mo 1      &kp ESC        &trans     &trans &trans 
+                                     &trans     &mo 1    &kp ESC        &trans     &trans &trans 
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -92,7 +92,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ ESC    │          │          │          │PROFILE 0 │   │          │          │          │          │  RESET   │
-           &kp N1        &none        &none        &none   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_CLR
+           &kp N1       &to 4   &none        &none   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_CLR
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│BOOTLOADER│          │          │          │PROFILE 1 │   │          │          │          │          │BOOTLOADER│
           &none        &none        &none        &none              &none        &none        &none        &none        &bt BT_NXT        &bt BT_PRV
@@ -104,5 +104,15 @@
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
-    };
+    layer_4 {
+            bindings = <
+&kp Q  &kp W  &kp E   &kp R           &kp T        &kp Y   &kp U  &kp I      &kp O    &kp P 
+&kp A  &kp S  &kp D   &kp F           &kp G        &kp H   &kp J  &kp K      &kp L    &kp SEMI
+&kp Z  &kp X  &kp C   &kp V           &kp B        &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH
+                      &trans  &kp LEFT_SHIFT  &kp SPACE    &trans  &to 0  &trans
+            >;
+        };
+
+
+};
 };
